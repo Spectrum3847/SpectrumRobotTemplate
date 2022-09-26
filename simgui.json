@@ -1,0 +1,26 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/PilotGamepad": "Subsystem",
+      "/LiveWindow/RobotTelemetry": "Subsystem",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/Shuffleboard/Main/Auton Selection": "String Chooser",
+      "/Shuffleboard/Main/Commands": "Scheduler",
+      "/Shuffleboard/name/Auton Selection": "String Chooser",
+      "/SmartDashboard/Scheduler": "Scheduler"
+    },
+    "windows": {
+      "/FMSInfo": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "Shuffleboard": {
+      "open": true
+    }
+  }
+}

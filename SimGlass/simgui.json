@@ -1,0 +1,141 @@
+{
+  "HALProvider": {
+    "Addressable LEDs": {
+      "0": {
+        "columns": 8
+      },
+      "window": {
+        "visible": true
+      }
+    },
+    "Encoders": {
+      "0": {
+        "header": {
+          "open": true
+        }
+      },
+      "1": {
+        "header": {
+          "open": true
+        }
+      },
+      "2": {
+        "header": {
+          "open": true
+        }
+      },
+      "3": {
+        "header": {
+          "open": true
+        }
+      },
+      "window": {
+        "visible": true
+      }
+    },
+    "Other Devices": {
+      "AnalogGyro[0]": {
+        "header": {
+          "open": true
+        }
+      },
+      "BuiltInAccel": {
+        "header": {
+          "open": true
+        }
+      },
+      "RomiGyro": {
+        "header": {
+          "open": true
+        }
+      }
+    },
+    "PWM Outputs": {
+      "window": {
+        "visible": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/DriverGamepad": "Subsystem",
+      "/LiveWindow/Drivetrain": "Subsystem",
+      "/LiveWindow/LEDSubsystem": "Subsystem",
+      "/LiveWindow/LEDs": "Subsystem",
+      "/LiveWindow/OnBoardIO": "Subsystem",
+      "/LiveWindow/RobotTelemetry": "Subsystem",
+      "/LiveWindow/Ungrouped/AnalogGyro[0]": "Gyro",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/DigitalInput[0]": "Digital Input",
+      "/LiveWindow/Ungrouped/DigitalInput[1]": "Digital Input",
+      "/LiveWindow/Ungrouped/DigitalInput[2]": "Digital Input",
+      "/LiveWindow/Ungrouped/DigitalOutput[3]": "Digital Output",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/Shuffleboard/Main/Auton": "String Chooser",
+      "/Shuffleboard/Main/Auton Selection": "String Chooser",
+      "/Shuffleboard/Main/SendableChooser[0]": "String Chooser",
+      "/SmartDashboard/Elevator Sim": "Mechanism2d",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser"
+    },
+    "windows": {
+      "/SmartDashboard/Elevator Sim": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field": {
+        "Robot": {
+          "arrowColor": [
+            0.0,
+            0.9950980544090271,
+            0.9658302068710327,
+            255.0
+          ],
+          "style": "Track"
+        },
+        "trajectory": {
+          "arrows": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "image": "C:\\Users\\agregory\\Downloads\\path-copy-22x-1.png"
+        },
+        "window": {
+          "name": "Field",
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "CameraPublisher": {
+      "open": true
+    },
+    "Shuffleboard": {
+      "Main": {
+        "Auton Selection": {
+          "open": true
+        },
+        "SendableChooser[0]": {
+          "open": true
+        },
+        "SendableChooser[2]": {
+          "open": true
+        },
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "open": true
+    }
+  },
+  "NetworkTables View": {
+    "visible": false
+  }
+}

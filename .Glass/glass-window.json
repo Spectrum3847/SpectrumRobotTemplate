@@ -1,0 +1,45 @@
+{
+  "MainWindow": {
+    "GLOBAL": {
+      "height": "768",
+      "maximized": "0",
+      "style": "0",
+      "userScale": "2",
+      "width": "1091",
+      "xpos": "1048",
+      "ypos": "1239"
+    }
+  },
+  "Window": {
+    "###/SmartDashboard/Elevator Sim": {
+      "Collapsed": "0",
+      "Pos": "138,382",
+      "Size": "200,197"
+    },
+    "###/SmartDashboard/Field": {
+      "Collapsed": "0",
+      "Pos": "471,32",
+      "Size": "582,357"
+    },
+    "###/SmartDashboard/Scheduler": {
+      "Collapsed": "0",
+      "Pos": "19,184",
+      "Size": "400,200"
+    },
+    "###NetworkTables": {
+      "Collapsed": "0",
+      "Pos": "135,494",
+      "Size": "750,185"
+    },
+    "###NetworkTables Settings": {
+      "Collapsed": "0",
+      "Pos": "8,23",
+      "Size": "330,138"
+    },
+    "Debug##Default": {
+      "Collapsed": "0",
+      "Pos": "60,60",
+      "Size": "400,400"
+    }
+  }
+}
