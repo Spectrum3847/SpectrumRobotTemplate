@@ -29,4 +29,3 @@ build/*
 
 #lock files
 *.lock
-.gradle/file-system.probe
