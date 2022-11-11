@@ -5,8 +5,8 @@ import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 import frc.SpectrumLib.telemetry.Alert;
-import frc.SpectrumLib.telemetry.Alert.AlertType;
 import frc.SpectrumLib.telemetry.TelemetrySubsystem;
+import frc.SpectrumLib.telemetry.Alert.AlertType;
 import frc.SpectrumLib.util.Network;
 import frc.SpectrumLib.util.Util;
 import frc.robot.auton.AutonSetup;
@@ -92,9 +92,7 @@ public class RobotTelemetry extends TelemetrySubsystem {
     }
 
     public void checkBatteryWhenDisabledalert() {
-        if (DriverStation.isDisabled()) {
-            batteryAlert.set(Util.checkBattery(12.0));
-        }
+        batteryAlert.set(DriverStation.isDisabled() && Util.checkBattery(12.0));
     }
 
     public boolean flash() {
